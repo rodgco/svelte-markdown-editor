@@ -9,7 +9,7 @@ export const post: RequestHandler = async ({ request }) => {
 		.then((urlParams) => urlParams.entries())
 		.then((params) => Object.fromEntries(params));
 
-	const result = await supabase.from('Contacts').insert({ app: 'nounsbet', ...contact });
+	const result = await supabase.from('Contacts').insert({ app: 'markdown-editor', ...contact });
 
 	console.log(result);
 
