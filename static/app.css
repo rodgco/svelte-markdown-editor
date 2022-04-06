@@ -75,6 +75,10 @@ fieldset,
 object {
 	border: none;
 }
+blockquote {
+	border-left: 0.25rem solid var(--color-article-bg);
+	padding-left: 0.5rem;
+}
 *,
 *:after,
 *:before {
