@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 208 208"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="markdown-mark-solid.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   width="208"
+   height="208"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.3700194"
+     inkscape:cx="81.020751"
+     inkscape:cy="136.85938"
+     inkscape:window-width="1366"
+     inkscape:window-height="668"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M 193,168 H 15 A 15,15 0 0 1 0,153 V 55 A 15,15 0 0 1 15,40 h 178 a 15,15 0 0 1 15,15 v 98 a 15,15 0 0 1 -15,15 z M 50,138 V 99 l 20,25 20,-25 v 39 h 20 V 70 H 90 L 70,95 50,70 H 30 v 68 z M 184,104 H 164 V 70 h -20 v 34 h -20 l 30,35 z"
+     id="path2"
+     style="fill:#ff3e00;fill-opacity:1" />
+</svg>
