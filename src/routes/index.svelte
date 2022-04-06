@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Parser, HtmlRenderer } from 'commonmark';
 
-	let text: string = '';
+	let text = '';
 
 	const parser = new Parser();
 	const writer = new HtmlRenderer({ smart: true });
@@ -12,9 +12,11 @@
 	$: rendered = writer.render(parsed);
 </script>
 
-<textarea bind:value={text} wrap="on" rows="10" />
+<textarea bind:value={text} wrap="on" rows="10" placeholder="Type some markdown here..." />
 
-<div>{@html rendered}</div>
+<div id="preview">
+	{@html rendered || '<span class="placeholder">...it will render here.</span>'}
+</div>
 
 <style>
 	textarea,
@@ -31,5 +33,11 @@
 		outline: none;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		margin-bottom: 2rem;
+	}
+	#preview :global(li) {
+		margin-left: 1.25rem;
+	}
+	#preview > :global(.placeholder) {
+		color: rgba(0, 0, 0, 0.5);
 	}
 </style>
