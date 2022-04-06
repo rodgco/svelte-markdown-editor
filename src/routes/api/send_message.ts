@@ -14,9 +14,7 @@ export const post: RequestHandler = async ({ request }) => {
 		.then((urlParams) => urlParams.entries())
 		.then((params) => Object.fromEntries(params));
 
-	const result = await supabase.from('Contacts').insert({ app, ...contact });
-
-	console.log(result);
+	await supabase.from('Contacts').insert({ app, ...contact });
 
 	return {
 		status: 303,

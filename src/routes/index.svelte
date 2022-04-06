@@ -9,7 +9,6 @@
 	let rendered = '';
 	let raw = false;
 
-	$: console.log(raw);
 	$: parsed = parser.parse(text);
 	$: rendered = writer.render(parsed);
 </script>
